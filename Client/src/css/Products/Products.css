@@ -6,9 +6,27 @@
   flex-wrap: wrap;
 }
 
-img {
+.image {
   width: 100%;
   height: 200px;
+}
+
+.product-info {
+  width: 100%;
+  text-align: center;
+}
+.product-info img {
+  display: block;
+  width: 40%;
+  margin: auto;
+}
+.product-info h3 {
+  font-size: 30px;
+}
+
+.close {
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .product {

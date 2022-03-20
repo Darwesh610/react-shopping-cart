@@ -8,7 +8,7 @@ function Main(props) {
   return (
     <div className='main'>
     <Products data={props.data}/>
-    <Filter/>
+    <Filter props={props}/>
     </div>
   )
 }

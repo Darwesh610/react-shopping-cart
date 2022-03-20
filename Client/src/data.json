@@ -5,30 +5,30 @@
         "image":"/images/1.png",
         "desc":"this is product 1",
         "price":30,
-        "sizes":["s" , "m" , "L"]
+        "sizes":["XS" , "M" , "L"]
     },
     {
         "id":2,
         "title":"PC",
         "image":"/images/2.png",
         "desc":"this is product 2",
-        "price":60,
-        "sizes":["s" , "m" , "L"]
+        "price":600,
+        "sizes":["S" , "M" , "XXL"]
     },
     {
         "id":3,
         "title":"HeadPhone",
         "image":"/images/3.png",
         "desc":"this is product 3",
-        "price":300,
-        "sizes":["s" , "m" , "L"]
+        "price":5000,
+        "sizes":["S" , "M" , "XL"]
     },
     {
         "id":4,
         "title":"airpods",
         "image":"/images/4.png",
         "desc":"this is product 4",
-        "price":350,
-        "sizes":["s" , "m" , "L"]
+        "price":450,
+        "sizes":["S" , "M" , "XL"]
     }
 ]

@@ -30,13 +30,5 @@
         "desc":"this is product 4",
         "price":350,
         "sizes":["s" , "m" , "L"]
-    },
-    {
-        "id":5,
-        "title":"mohamed",
-        "image":"/images/5.png",
-        "desc":"this is product 5",
-        "price":3000,
-        "sizes":["s" , "m" , "L"]
     }
 ]

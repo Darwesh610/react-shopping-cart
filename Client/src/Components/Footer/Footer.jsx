@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
     <footer>
-        <h1>E-Commerce</h1>
+      &copy; CopyRights Mohamed Darwesh 2022
     </footer>
     </>
   )

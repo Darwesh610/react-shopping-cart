@@ -5,7 +5,8 @@
         "image":"/images/1.png",
         "desc":"this is product 1",
         "price":30,
-        "sizes":["XS" , "M" , "L"]
+        "sizes":["XS" , "M" , "L"],
+        "qty":1
     },
     {
         "id":2,
@@ -13,7 +14,8 @@
         "image":"/images/2.png",
         "desc":"this is product 2",
         "price":600,
-        "sizes":["S" , "M" , "XXL"]
+        "sizes":["S" , "M" , "XXL"],
+        "qty":1
     },
     {
         "id":3,
@@ -21,7 +23,8 @@
         "image":"/images/3.png",
         "desc":"this is product 3",
         "price":5000,
-        "sizes":["S" , "M" , "XL"]
+        "sizes":["S" , "M" , "XL"],
+        "qty":1
     },
     {
         "id":4,
@@ -29,6 +32,16 @@
         "image":"/images/4.png",
         "desc":"this is product 4",
         "price":450,
-        "sizes":["S" , "M" , "XL"]
+        "sizes":["S" , "M" , "XL"],
+        "qty":1
+    },
+    {
+        "id":5,
+        "title":"LapTop",
+        "image":"/images/2.png",
+        "desc":"this is product 5",
+        "price":4650,
+        "sizes":["S" , "M" , "XL"],
+        "qty":1
     }
 ]

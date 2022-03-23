@@ -1,0 +1,21 @@
+.cart-head {
+  height: 25%;
+}
+
+.cart-items {
+  height: 40%;
+  padding: 10px 20px;
+  border: 0.5px solid rgba(0, 0, 0, 0.384);
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.377);
+  border-radius: 10px;
+}
+
+.cart-item p {
+  font-size: 16px;
+  margin: 0px 10px;
+}
+
+.cart-item img {
+  width: 100px;
+  height: 100px;
+}

@@ -3,6 +3,7 @@ import '../../css/Products/Products.css'
 import Modal from 'react-modal'
 
 function Products(props) {
+    const { addToCart } = props 
     const [product, setProduct] = useState("")
 
     const openModal = (product) => {
@@ -12,8 +13,8 @@ function Products(props) {
         setProduct('')
     }
 return (
-    <div className='products'>
-    {props.data.map((product , indx) => <div className='product' key={indx}>
+    <div className='col-md-8 row g-3 my-5 justify-content-center'>
+    {props.data.map((product , indx) => <div className='col-md-3 product mx-3 text-center' key={indx}>
         <a href="#" onClick={() => openModal(product)}>
         <img className='image' src={product.image} alt={product.title} />
         </a>
@@ -23,7 +24,7 @@ return (
         <br />
         <span>{product.sizes}</span>
         <br />
-        <button className='butt'>Add to Cart</button>
+        <button className='butt my-2' onClick={() =>  addToCart(product)}>Add to Cart</button>
         </div>
     )}
 

@@ -4,9 +4,9 @@ import '../../css/Filter/Filter.css'
 function Filter(props) {
   const { data , handleSize , size , sort , handleSort } = props.props;
   return (
-    <div className='filter'>
+    <div className='col-md-4 my-5'>
         <h2 className='filter-title' >Filter</h2>
-        <div className="num-of-products my-1 text-center h5"> Number of Products {data.length} </div>
+        <div className="num-of-products my-1 text-center h6"> Number of Products {data.length} </div>
         <div className="filter-by-size my-5 mx-2">
           <span>Order: </span>
         <select value={sort} className="form-select" onChange={handleSort}>
